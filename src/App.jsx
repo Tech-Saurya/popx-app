@@ -6,7 +6,7 @@ import Profile from "./pages/Profile";
 
 function App() {
   return (
-    <BrowserRouter basename="/popx-app">  {/* 👈 Ye add karo */}
+    <BrowserRouter>   {/* 👈 basename hata diya */}
       <Routes>
         <Route path="/" element={<Welcome />} />
         <Route path="/login" element={<Login />} />
