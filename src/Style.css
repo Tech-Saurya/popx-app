@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  background: #f7f8f9;
+  font-family: 'Rubik', sans-serif;
+}
+
+/* Mobile frame */
+.container {
+  width: 375px;
+  height: 812px;
+  margin: auto;
+  background: #fff;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+/* Title */
+.title {
+  font-size: 22px;
+  font-weight: 500;
+  color: #1d2226;
+}
+
+/* Subtitle */
+.subtitle {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+/* Label */
+.label {
+  font-size: 13px;
+  color: #6a5cff;
+  margin-top: 15px;
+  display: block;
+}
+
+/* Input */
+.input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+}
+
+/* Button */
+.btn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+/* Gradient Button */
+.btn-primary {
+  background: linear-gradient(90deg, #6a5cff, #4d3fff);
+  color: white;
+}
+
+/* Light Button */
+.btn-secondary {
+  background: #e5e5e5;
+}
